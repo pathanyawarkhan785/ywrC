@@ -20,9 +20,7 @@ void arrangeArr(int arr[], int n)
         {
             lastOddPos++;
             if (i != lastOddPos)
-            {
                 rotate(arr, lastOddPos, i);
-            }
         }
     }
 }
