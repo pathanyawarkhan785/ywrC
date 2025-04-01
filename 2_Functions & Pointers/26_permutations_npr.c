@@ -15,8 +15,8 @@ int factorial(int num)
 int main()
 
 {
-    int n = 6;
-    int r = 3;
+    int n = 4;
+    int r = 2;
 
     int npr = factorial(n) / factorial(n - r);
     printf("%d", npr);

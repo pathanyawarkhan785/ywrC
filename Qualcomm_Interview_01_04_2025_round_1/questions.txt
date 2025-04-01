@@ -1,0 +1,13 @@
+function pointer syntax
+Cache coherency
+processer architecture
+how to check soc overheating
+if hardware issue in soc so what to do
+MMU (Memory Management Unit)
+where this varible stores in c
+can we make volatile keyword and const in same file , what is issue if we use both
+extern
+
+---------programes---------
+syntax of linkedlist
+set nth bit
