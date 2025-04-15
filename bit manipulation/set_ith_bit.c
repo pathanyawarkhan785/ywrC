@@ -7,7 +7,7 @@ int main()
     int bit = 2;
     int mask = 1 << bit;
 
-    num |= mask;
+    num |= mask; // 15
 
     printf("%d", num);
     return 0;

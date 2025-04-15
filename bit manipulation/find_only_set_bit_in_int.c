@@ -21,11 +21,11 @@ int main()
 {
     int num;
 
-    // printf("Enter num: ");
-    // scanf("%d", &num);
+    printf("Enter num: ");
+    scanf("%d", &num);
 
-    // int res = positionOfSetBit(num);
-    // printf("%d", res);
+    int res = positionOfSetBit(num);
+    printf("%d", res);
 
     return 0;
 }

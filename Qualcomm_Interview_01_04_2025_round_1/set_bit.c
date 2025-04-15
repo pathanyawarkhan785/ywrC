@@ -6,22 +6,24 @@
 int main()
 
 {
-    int a = 11;
-    int bit;
 
-    printf("Enter bit you want to set: ");
-    scanf("%d", &bit);
+    const volatile int a = 20;
 
-    bit = 1 << bit;
+    // int bit;
 
-    // printf("%d", bit);
-    a |= bit;
+    // printf("Enter bit you want to set: ");
+    // scanf("%d", &bit);
 
-    printf("%d", a);
+    // bit = 1 << bit;
 
-    // 8 4 2 1
-    // 1 0 1 1 -> 11
-    // 1 1 1 1 -> 15
+    // // printf("%d", bit);
+    // a |= bit;
+
+    // printf("%d", a);
+
+    // // 8 4 2 1
+    // // 1 0 1 1 -> 11
+    // // 1 1 1 1 -> 15
 
     return 0;
 }
