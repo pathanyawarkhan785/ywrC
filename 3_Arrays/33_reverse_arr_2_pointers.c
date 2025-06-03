@@ -7,11 +7,10 @@ int main()
     int size = sizeof(a) / sizeof(a[0]);
     int l = 0;
     int r = size - 1;
-    int temp;
 
     while (l < r)
     {
-        temp = a[l];
+        int temp = a[l];
         a[l] = a[r];
         a[r] = temp;
         l++;

@@ -2,10 +2,11 @@
 
 int positionOfSetBit(int num)
 {
-    int pos = 1;
 
-    if ((num & (num - 1)) != 0)
+    if (num == 0)
         return -1;
+
+    int pos = 1;
 
     while ((num & 1) != 1)
     {

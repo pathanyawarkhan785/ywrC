@@ -2,6 +2,6 @@
 
 int main()
 {
-    // printf("Hello World!\n");
-    // printf("yawarkhan Pathan");
+    printf("Hello World!\n");
+    printf("yawarkhan Pathan");
 }

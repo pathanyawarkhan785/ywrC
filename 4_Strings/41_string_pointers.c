@@ -4,7 +4,7 @@ int main()
 
 {
     char str[30] = "Hello yawar";
-    char *ptr = str; // same as array ptr is pointing to first char of string.
+    char *ptr = str; // same as array:- ptr is pointing to first char of string.
     int i = 0;
 
     while (*ptr != '\0')

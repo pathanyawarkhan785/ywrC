@@ -9,9 +9,7 @@ int maxVal(int arr[], int size)
     for (int i = 1; i < size; i++)
     {
         if (max < arr[i])
-        {
             max = arr[i];
-        }
     }
     return max;
 }
@@ -24,10 +22,8 @@ int minVal(int arr[], int size)
     for (int i = 1; i < size; i++)
     {
         if (min > arr[i])
-        {
             min = arr[i];
         }
-    }
     return min;
 }
 

@@ -5,10 +5,10 @@
 int factorial(int num)
 {
     int temp = 1;
+
     for (int i = 2; i <= num; i++)
-    {
         temp *= i;
-    };
+
     return temp;
 }
 

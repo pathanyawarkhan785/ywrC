@@ -15,13 +15,11 @@ int main()
     int sqrtNum = 1;
 
     while (sqrtNum * sqrtNum <= num)
-    {
         sqrtNum++;
-    }
 
     sqrtNum--;
 
-    for (int i = 2; i < sqrtNum; i++)
+    for (int i = 2; i <= sqrtNum; i++)
     {
         if (num % i == 0)
         {

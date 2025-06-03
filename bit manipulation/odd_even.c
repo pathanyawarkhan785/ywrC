@@ -4,9 +4,8 @@ int main()
 
 {
     int num = 112;
-    int mask = 1;
 
-    if (num & mask == 1)
+    if ((num & 1) == 1)
     {
         printf("Odd");
         return 0;

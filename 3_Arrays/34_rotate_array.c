@@ -16,7 +16,7 @@ int main()
 
 {
     int a[5] = {3, 7, 4, 6, 8};
-    int k = 10; // rotate 3 times
+    int k = 13; // rotate 3 times
     int size = sizeof(a) / sizeof(a[0]);
     int l = 0;
     int r = size - 1;

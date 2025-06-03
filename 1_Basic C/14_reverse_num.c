@@ -11,7 +11,7 @@ int main()
         n /= 10;
     }
 
-    printf("%d", revNum + n);
+    printf("%d", revNum);
 
     return 0;
 }

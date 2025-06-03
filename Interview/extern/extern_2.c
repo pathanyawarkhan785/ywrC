@@ -16,7 +16,7 @@ int main()
 // Lifetime : The lifetime of an extern variable is the entire duration of the program.
 
 // run file like this :-
-// gcc extern1.c extern2.c -o extern1
-// extern1
+// gcc extern_1.c extern_2.c -o externout
+// then run exe file:- externout.exe
 
 // This will link both files together and produce an executable named output. When you run the executable, it will print 42 as the value of a.
